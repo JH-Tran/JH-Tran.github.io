@@ -166,10 +166,6 @@ html {
   font: var(--h-2, 700 37px/100% "Oswald", sans-serif);
 }
 .about-me-span2 {
-  color: #ffffff;
-  font: 700 47px/100% "Oswald", sans-serif;
-}
-.about-me-span3 {
   color: #576cbc;
   font: 700 27px/100% "Oswald", sans-serif;
 }
@@ -267,6 +263,7 @@ html {
   top: 15px;
 }
 .exploring-title {
+  background-color: #d9d9d9;
   display: flex;
   flex-direction: column;
   gap: 0px;
@@ -276,23 +273,32 @@ html {
   position: relative;
 }
 .search {
+  background-color: #d9d9d9;
   flex-shrink: 0;
   position: relative;
   overflow: visible;
 }
 .exploring {
   color: #000000;
-  text-align: left;
+  background-color: #d9d9d9;
+  text-align: center;
+  text-decoration: underline;
   font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
   position: relative;
   width: 70.94px;
 }
-.machine-learning-discord-app-bouldering {
+.exploring-list {
   color: #000000;
-  text-align: left;
+  list-style-type: none;
+  text-align: center;
   font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
   position: relative;
   width: 206px;
+}
+ul.exploring-list li{
+  background-color: #d9d9d9;
+  color: #000000;
+  font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
 }
 .creating-section {
   display: flex;
@@ -309,6 +315,7 @@ html {
   overflow: visible;
 }
 .creating-context {
+  background-color: #d9d9d9;
   display: flex;
   flex-direction: column;
   gap: 31px;
@@ -320,6 +327,7 @@ html {
   top: 15px;
 }
 .creating-title {
+  background-color: #d9d9d9;
   display: flex;
   flex-direction: column;
   gap: 0px;
@@ -329,23 +337,32 @@ html {
   position: relative;
 }
 .add-ring {
+  background-color: #d9d9d9;
   flex-shrink: 0;
   position: relative;
   overflow: visible;
 }
 .creating {
+  background-color: #d9d9d9;
   color: #000000;
-  text-align: left;
+  text-align: center;
+  text-decoration: underline;
   font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
   position: relative;
   width: 65.65px;
 }
-.unity-projects-websites {
+.creating-list {
   color: #000000;
-  text-align: left;
+  list-style-type: none;
+  text-align: center;
   font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
   position: relative;
   width: 206px;
+}
+ul.creating-list li{
+  background-color: #d9d9d9;
+  color: #000000;
+  font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
 }
 .learning-section {
   display: flex;
@@ -365,6 +382,7 @@ html {
 }
 .learning-context {
   display: flex;
+  background: #d9d9d9;
   flex-direction: column;
   gap: 31px;
   align-items: center;
@@ -375,6 +393,7 @@ html {
   top: 18px;
 }
 .learning-title {
+  background: #d9d9d9;
   display: flex;
   flex-direction: column;
   gap: 3px;
@@ -384,25 +403,32 @@ html {
   position: relative;
 }
 .book-open-alt {
+  background: #d9d9d9;
   flex-shrink: 0;
   position: relative;
   overflow: visible;
 }
 .learning {
+  background: #d9d9d9;
   color: #000000;
-  text-align: left;
+  text-align: center;
   font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
   position: relative;
   width: 66.71px;
 }
-.software-architecture-software-analysis-net {
+.learning-list {
   color: #000000;
-  text-align: left;
+  list-style-type: none;
+  text-align: center;
   font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
   position: relative;
-  width: 205px;
+  width: 206px;
 }
-
+ul.learning-list li{
+  background-color: #d9d9d9;
+  color: #000000;
+  font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
+}
 
 .contact-section,
 .contact-section * {
