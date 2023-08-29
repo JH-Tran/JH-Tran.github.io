@@ -434,6 +434,114 @@ ul.learning-list li{
   font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
 }
 
+.projects-content,
+.projects-content * {
+  box-sizing: border-box;
+}
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.projects {
+  text-align: left;
+  position: relative;
+  color: #a5d7e8;
+  font: 700 47px/100% "Oswald", sans-serif;
+}
+.projects-span2 {
+  color: #576cbc;
+  font: 700 27px/100% "Oswald", sans-serif;
+}
+.project-images {
+  flex-shrink: 0;
+  width: 1065px;
+  height: 324px;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.rectangle-8 {
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 345px;
+  height: 324px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-9 {
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 345px;
+  height: 324px;
+  position: absolute;
+  left: 450px;
+  top: 0px;
+}
+.rectangle-10 {
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 345px;
+  height: 324px;
+  position: absolute;
+  left: 900px;
+  top: 0px;
+}
+.rectangle-11 {
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 345px;
+  height: 324px;
+  position: absolute;
+  left: 1350px;
+  top: 0px;
+}
+.git-hub {
+  border-style: solid;
+  border-color: #678691;
+  border-width: 0px 0px 2px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.my-git-hub {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: left;
+  font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
+  position: relative;
+}
+.itchio {
+  border-style: solid;
+  border-color: #678691;
+  border-width: 0px 0px 2px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.my-itch-io {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: left;
+  font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
+  position: relative;
+}
+
+
 .contact-section,
 .contact-section * {
   box-sizing: border-box;
