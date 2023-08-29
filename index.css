@@ -136,3 +136,315 @@ h1 {
 html {
   scroll-behavior: smooth;
 }
+.about-me-section,
+.about-me-section * {
+  box-sizing: border-box;
+}
+.about-me-section {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+.about-me-left {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.about-me {
+  text-align: left;
+  position: relative;
+}
+.about-me-span {
+  color: #a5d7e8;
+  font: var(--h-2, 700 37px/100% "Oswald", sans-serif);
+}
+.about-me-span2 {
+  color: #ffffff;
+  font: 700 47px/100% "Oswald", sans-serif;
+}
+.about-me-span3 {
+  color: #576cbc;
+  font: 700 27px/100% "Oswald", sans-serif;
+}
+.analytical-problem-solver {
+  color: #ffffff;
+  text-align: left;
+  font: var(--h-1-main-heading, 700 87px/100% "Oswald", sans-serif);
+  position: relative;
+  width: 503px;
+}
+.about-me-description {
+  color: #c0c0c0;
+  text-align: left;
+  font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
+  position: relative;
+  width: 564px;
+  height: 257px;
+}
+
+.what-i-do-section,
+.what-i-do-section * {
+  box-sizing: border-box;
+}
+.what-i-do-section {
+  display: flex;
+  flex-direction: column;
+  gap: 53px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.what-i-do-info {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.what-i-do {
+  text-align: left;
+  position: relative;
+}
+.what-i-do-span {
+  color: #a5d7e8;
+  font: var(--h-2, 700 37px/100% "Oswald", sans-serif);
+}
+.what-i-do-span2 {
+  color: #576cbc;
+  font: 700 27px/100% "Oswald", sans-serif;
+}
+.strategy-design-and-a-bit-of-chess {
+  color: #ffffff;
+  text-align: center;
+  font: 700 67px/100% "Oswald", sans-serif;
+  position: relative;
+  width: 1065px;
+}
+.what-i-do-context-boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 128px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.exploring-section {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.exploring-background {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 270px;
+  height: 272px;
+  position: relative;
+}
+.exploring-context {
+  background: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 32px;
+  top: 15px;
+}
+.exploring-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.search {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.exploring {
+  color: #000000;
+  text-align: left;
+  font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
+  position: relative;
+  width: 70.94px;
+}
+.machine-learning-discord-app-bouldering {
+  color: #000000;
+  text-align: left;
+  font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
+  position: relative;
+  width: 206px;
+}
+.creating-section {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.creating-background {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.creating-context {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: 35px;
+  top: 15px;
+}
+.creating-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.add-ring {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.creating {
+  color: #000000;
+  text-align: left;
+  font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
+  position: relative;
+  width: 65.65px;
+}
+.unity-projects-websites {
+  color: #000000;
+  text-align: left;
+  font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
+  position: relative;
+  width: 206px;
+}
+.learning-section {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.learning-background {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 270px;
+  height: 272px;
+  position: relative;
+}
+.learning-context {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: 30px;
+  top: 18px;
+}
+.learning-title {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.book-open-alt {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.learning {
+  color: #000000;
+  text-align: left;
+  font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
+  position: relative;
+  width: 66.71px;
+}
+.software-architecture-software-analysis-net {
+  color: #000000;
+  text-align: left;
+  font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
+  position: relative;
+  width: 205px;
+}
+
+
+.contact-section,
+.contact-section * {
+  box-sizing: border-box;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.contact-me {
+  text-align: center;
+  position: relative;
+  width: 345px;
+}
+.contact-me-text {
+  color: #a5d7e8;
+  font: var(--h-2, 700 37px/100% "Oswald", sans-serif);
+}
+.contact-me-plus {
+  color: #576cbc;
+  font: 700 27px/100% "Oswald", sans-serif;
+}
+.email {
+  color: #c0c0c0;
+  text-align: center;
+  font: 700 87px/100% "Oswald", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  height: auto;
+  width: auto;
+}
+.linked-in {
+  color: #c0c0c0;
+  text-align: center;
+  font: 700 87px/100% "Oswald", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
