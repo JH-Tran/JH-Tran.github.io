@@ -9,7 +9,10 @@
 }
 header {
   background-color: black;
-  opacity: 80%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  opacity: 95%;
 }
 header ::after {
   content: "";
@@ -26,6 +29,7 @@ nav {
 }
 .navName {
   color: #fff;
+  text-decoration: none;
   float: left;
   font-size: 30px;
   font-style: normal;
