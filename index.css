@@ -416,6 +416,7 @@ ul.creating-list li{
   background: #d9d9d9;
   color: #000000;
   text-align: center;
+  text-decoration: underline;
   font: var(--body-text, 400 20px/27.5px "Oswald", sans-serif);
   position: relative;
   width: 66.71px;
@@ -441,14 +442,13 @@ ul.learning-list li{
 .projects-content {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 43px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: relative;
 }
 .projects {
   text-align: left;
-  position: relative;
+  width: 100%;
   color: #a5d7e8;
   font: 700 47px/100% "Oswald", sans-serif;
 }
