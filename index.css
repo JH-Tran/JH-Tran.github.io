@@ -150,7 +150,8 @@ html {
   display: flex;
   flex-direction: row;
   gap: 0px;
-  padding-bottom: 24px;
+  padding-top: 51px;
+  padding-bottom: 51px;
   align-items: flex-end;
   justify-content: center;
   position: relative;
@@ -199,7 +200,7 @@ html {
 .what-i-do-section {
   display: flex;
   flex-direction: column;
-  gap: 53px;
+  gap: 72px;
   padding-top: 51px;
   padding-bottom: 51px;
   align-items: center;
@@ -448,12 +449,14 @@ ul.learning-list li{
   display: flex;
   flex-direction: column;
   gap: 43px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   align-items: center;
   justify-content: flex-start;
   position: relative;
 }
 .projects {
-  text-align: left;
+  text-align: center;
   position: relative;
   color: #a5d7e8;
   font: 700 47px/100% "Oswald", sans-serif;
@@ -561,6 +564,8 @@ ul.learning-list li{
   display: flex;
   flex-direction: column;
   gap: 29px;
+  padding-top: 54px;
+  padding-bottom: 54px;
   align-items: center;
   justify-content: flex-start;
   position: relative;
