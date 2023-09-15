@@ -2,52 +2,48 @@
 <html>
   <head>
     <title>JH-Tran</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Oswald"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
     <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/1ca82a6614.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
     <style>
       body {
         font-family: "Oswald";
       }
     </style>
   </head>
-  <header>
-    <div class="navContainer">
-      <a href="#" class="navName">Justin Tran.</a>
-      <nav>
+  <nav>
+    <section class="nav-container">
+      <a href="#" class="nav-name">Justin Tran.</a>
+      <div class="nav-link">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav>
-    </div>
-  </header>
+      </div>
+    </section>
+  </nav>
 
   <body>
-    <div class="main-container">
+    <section class="main-container">
       <div class="sidebox">
         <h2>Hey, I'm</h2>
         <h1>Justin<span class="blueDot">.</span></h1>
         <p class="aboutParagraph">
-          I'm an enthusiastic and versatile software engineer with a passion for creating meaningful experiences. 
-          I craft creative solutions that make a lasting positive impact. 
-          I believe that technology is a catalyst for joy, and I'm driven to develop solutions that resonate with users.
+          I'm an enthusiastic and versatile software engineer with a passion for
+          creating meaningful experiences. I craft creative solutions that make
+          a lasting positive impact. I believe that technology is a catalyst for
+          joy, and I'm driven to develop solutions that resonate with users.
         </p>
         <a href="#about" class="scroll-button">Scroll for more</a>
       </div>
       <div>
-        <img
-          src="./public/images/monitor.png"
-          alt="monitor"
-          class="aboutImage"
-        />
+        <img src="./public/images/monitor.png" alt="monitor" class="aboutImage"/>
       </div>
-    </div>
+    </section>
 
-    <div id="about" class="about-me-section">
+    <section id="about" class="about-me-section">
       <div class="about-me-left">
         <div class="about-me">
           <h1>
@@ -71,12 +67,15 @@
         to get in touch. Let&#039;s come together and create something truly
         amazing!<br />
       </div>
-    </div>
+    </section>
 
-    <div class="what-i-do-section">
+    <section class="what-i-do-section">
       <div class="what-i-do-info">
         <div class="what-i-do">
-          <span><span class="what-i-do-span">What I Do </span><span class="what-i-do-span2">+</span></span>
+          <span
+            ><span class="what-i-do-span">What I Do </span
+            ><span class="what-i-do-span2">+</span></span
+          >
         </div>
         <div class="strategy-design-and-a-bit-of-chess">
           Strategy, design and a bit of chess
@@ -237,19 +236,28 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div id="projects" class="projects-content">
-      <h1 class="projects">Projects <span class="projects-span2">+</span></h1>
-      <div class="project-images">
-        <div class="rectangle-8"></div>
-        <div class="rectangle-9"></div>
-        <div class="rectangle-10"></div>
-        <div class="rectangle-11"></div>
+    <section class="projects-content">
+      <div id="projects" class="projects-title">
+        Projects <span class="projects-plus">+</span>
       </div>
+      <div class="wrapper">
+        <i id="left-arrow-project" class="fa-solid fa-angle-left"></i>
+        <div class="projects-carousel">
+          <img src="./public/images/MeAndMyDrone.png" alt="img" />
+          <img src="./public/images/BirdeyeView.png" alt="img" />
+          <img src="./public/images/PandaChronicle.png" alt="img" />
+        </div>
+        <i id="right-arrow-project" class="fa-solid fa-angle-right"></i>
+      </div>
+
       <div class="project-links">
         <div class="git-hub">
-          <a href="https://github.com/JH-Tran" target="_blank" class="my-git-hub"
+          <a
+            href="https://github.com/JH-Tran"
+            target="_blank"
+            class="my-git-hub"
             >My GitHub</a
           >
         </div>
@@ -259,7 +267,7 @@
           >
         </div>
       </div>
-    </div>
+    </section>
 
     <div id="contact" class="contact-section">
       <h1 class="contact-me-text">
@@ -272,6 +280,6 @@
         class="linked-in"
         >LinkedIn</a
       >
-    </div>
+    </section>
   </body>
 </html>
